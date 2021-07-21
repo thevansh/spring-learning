@@ -25,4 +25,11 @@ public class Lion implements Animal{
     public int getSpeed() {
         return speed;
     }
+
+    public void tellScientificName(){
+        System.out.println("Scientific name: Panthera leo");
+    }
+    public void tellWeight(){
+        System.out.println("Mass: Male: 190 kg (Adult)");
+    }
 }
