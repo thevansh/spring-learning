@@ -14,10 +14,9 @@
         <constructor-arg ref="theLegs"/>
     </bean>
 
-    <bean id="theLion" class="com.springdemo.Lion">
+    <bean id="theLion" class="com.springdemo.Lion" scope="prototype">
         <property name="legs" ref="theLegs" />
         <property name="speed" value="${speed}"/>
-
     </bean>
 </beans>
 
