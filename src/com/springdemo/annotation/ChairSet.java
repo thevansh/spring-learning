@@ -2,7 +2,7 @@ package com.springdemo.annotation;
 
 import org.springframework.stereotype.Component;
 
-@Component("chair")
+@Component
 public class ChairSet implements Furniture{
     @Override
     public void getTypeOfFurniture() {
