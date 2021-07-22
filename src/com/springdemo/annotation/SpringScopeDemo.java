@@ -12,5 +12,6 @@ public class SpringScopeDemo {
             System.out.println("singleton");
         else
             System.out.println("Prototype");
+        context.close();
     }
 }

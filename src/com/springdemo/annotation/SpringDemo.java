@@ -9,5 +9,7 @@ public class SpringDemo {
         Furniture type=context.getBean("chairSet",Furniture.class);
         type.getTypeOfFurniture();
         type.typeOfMaterialUsed();
+
+        context.close();
     }
 }
