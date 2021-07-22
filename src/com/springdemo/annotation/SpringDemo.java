@@ -8,5 +8,6 @@ public class SpringDemo {
                 new ClassPathXmlApplicationContext("applicationContext.xml");
         Furniture type=context.getBean("chairSet",Furniture.class);
         type.getTypeOfFurniture();
+        type.typeOfMaterialUsed();
     }
 }
