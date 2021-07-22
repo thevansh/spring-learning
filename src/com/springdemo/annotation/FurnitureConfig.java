@@ -8,6 +8,7 @@ import org.springframework.context.annotation.PropertySource;
 
 @Configuration
 //@ComponentScan("com.springdemo.annotation")
+@PropertySource("classpath:weight.properties")
 public class FurnitureConfig {
     @Bean
     public Material typeOfMaterial(){
