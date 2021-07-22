@@ -1,10 +1,13 @@
 package com.springdemo.annotation;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
 public class ChairSet implements Furniture{
+    @Autowired
+    @Qualifier("plastic")
     private Material material;
 
     /*
@@ -14,10 +17,13 @@ public class ChairSet implements Furniture{
         this.material = material;
     }
     */
+
+    /*
     @Autowired
     public void setMaterial(Material material) {
         this.material = material;
     }
+    */
 
     @Override
     public void getTypeOfFurniture() {
