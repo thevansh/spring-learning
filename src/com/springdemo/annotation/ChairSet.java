@@ -7,9 +7,15 @@ import org.springframework.stereotype.Component;
 public class ChairSet implements Furniture{
     private Material material;
 
+    /*
     //Here autowired annotation is optional
     @Autowired
     public ChairSet(Material material) {
+        this.material = material;
+    }
+    */
+    @Autowired
+    public void setMaterial(Material material) {
         this.material = material;
     }
 
