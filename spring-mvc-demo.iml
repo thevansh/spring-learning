@@ -38,8 +38,6 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/webapp/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar!/" />
-          <root url="jar://$MODULE_DIR$/src/main/webapp/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar!/" />
           <root url="jar://$MODULE_DIR$/src/main/webapp/WEB-INF/lib/spring-aop-5.3.9.jar!/" />
           <root url="jar://$MODULE_DIR$/src/main/webapp/WEB-INF/lib/spring-aspects-5.3.9.jar!/" />
           <root url="jar://$MODULE_DIR$/src/main/webapp/WEB-INF/lib/spring-beans-5.3.9.jar!/" />
@@ -122,6 +120,24 @@
           <root url="jar://$MODULE_DIR$/src/main/webapp/WEB-INF/lib/spring-webmvc-5.3.9-sources.jar!/" />
           <root url="jar://$MODULE_DIR$/src/main/webapp/WEB-INF/lib/spring-websocket-5.3.9-sources.jar!/" />
         </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/src/main/webapp/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/src/main/webapp/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
       </library>
     </orderEntry>
   </component>

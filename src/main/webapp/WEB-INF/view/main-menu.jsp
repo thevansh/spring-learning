@@ -11,8 +11,14 @@
     <title>Welcome</title>
 </head>
 <body>
-<h2>Spring MVC Demo - App</h2>
-<a href="showForm">Welcome Form</a>
+        <h2>Spring MVC Demo - App</h2>
+
+        <br><br>
+        <a href="hello/showForm">Welcome Form</a>
+
+        <br><br>
+
+        <a href="student/showForm" >Student Form</a>
 </body>
 </html>
 
